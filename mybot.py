@@ -2,7 +2,7 @@ import time
 import vk_api
 #import vk
 vk = vk_api.VkApi(login = '8..70', password = '....')
-#vk_api.VkApi(token = '8fe8643a46f27cf99ce1f8e17c7b2368200343692efeec8153f13af654ad0531630e70f328923e9466faf') #Авторизоваться как сообщество
+#vk_api.VkApi(token = '...') #Авторизоваться как сообщество
 vk.auth()
 values = {'out': 0,'count': 100,'time_offset': 60}
 
